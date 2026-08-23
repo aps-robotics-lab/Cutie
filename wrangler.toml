@@ -1,0 +1,8 @@
+name = "robokriti-2026-api"
+main = "worker/worker.js"
+compatibility_date = "2026-08-23"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "robokriti-2026"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"

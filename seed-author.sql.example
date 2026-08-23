@@ -1,0 +1,4 @@
+-- First generate a hash:
+-- node scripts/hash-password.mjs "YOUR_STRONG_PASSWORD"
+-- Then replace HASH below and insert only the authorised email(s).
+INSERT INTO users(email,password_hash,role,active) VALUES('author@example.com','HASH','author',1);
